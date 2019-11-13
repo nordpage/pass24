@@ -12,18 +12,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+        android:background="@android:drawable/edit_text"
+        android:digits="АВЕКМНОРСТУХ0123456789"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="B1233/B123BB/BB123"
+        android:inputType="text|textCapCharacters"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numberET" />
+    <ImageView
+        android:id="@+id/iconIV"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/numberET"
+        app:layout_constraintEnd_toStartOf="@+id/numberET"
+        app:layout_constraintTop_toTopOf="@+id/numberET" />
 </androidx.constraintlayout.widget.ConstraintLayout>
