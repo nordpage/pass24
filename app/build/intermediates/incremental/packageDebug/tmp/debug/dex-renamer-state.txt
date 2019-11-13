@@ -1,0 +1,4 @@
+#Wed Nov 13 03:38:01 MSK 2019
+base.0=/home/nortti/AndroidStudioProjects/NumberCheck/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
